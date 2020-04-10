@@ -1,0 +1,167 @@
+body {
+    background-color: rgb(224, 219, 219);
+    margin: 0;
+}
+
+#container {
+    background-color: rgb(241, 248, 241);
+    width: 95%;
+    margin: 0 auto;
+    box-shadow:  0px 20px 20px 10px;
+}
+
+nav {
+    padding: 5px;
+    
+    background-color: rgb(7, 7, 82);
+
+}
+nav a {
+    display: inline-block;
+    background-color:;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 5px 70px 5px 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav a:hover{
+    background-color: rgb(69, 166, 199);
+    color:black;
+}
+
+header {
+    width: 50%;
+    background-color: rgb(7, 7, 87);
+    margin: auto;
+    text-align: center;
+    color: wheat;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#section1 {
+    width: 40%;
+    
+    padding: 10px;
+}
+.picture1, #section3 img, #section4 img, #section5 img {
+    width: 100%; 
+}
+#section1 h2, #section2 h2, .visit h2{
+    text-align: center;
+    font-family: monospace;
+    font-size: 30px;
+}
+
+#section2 {
+    width: 50%;
+    
+    padding: 10px;
+}
+.donald{
+    width: 100%;
+}
+
+#section1, #section2 {
+    float: left;
+    margin: 20px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.visit{
+    clear: both;
+    background-color: rgb(82, 166, 245);
+    text-align: center;
+    width: 80%;
+    color: brown;
+    margin: auto;
+    border-radius: 5px;
+    border-bottom: 2px solid rgb(7, 7, 107);
+    margin-bottom: 10px;
+
+}
+#section3, #section4, #section5{
+    border: brown solid 2px;
+    width: 30%;
+    float: left;
+    margin: 0px 20px;
+    text-align: center;
+    font-size: 17px;
+    margin-bottom: 20px;
+    
+}
+
+footer{
+    clear: both;
+text-align: center;
+background-color: rgb(4, 4, 104);
+color: wheat;
+
+}
+footer div{
+    display: inline-block;
+}
+
+footer a{
+    color: yellow;
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+footer a:hover{
+    text-decoration: underline;
+    color: yellowgreen;
+}
+.visit p{
+    font-weight: bold;
+    
+}
+#section2 p {
+    text-align: center;
+}
+
+.governor {
+    width: 60%;
+    height: 400px;
+}
+
+/**** this is the style sheet for contact page contact.html****/
+
+.us-today{
+    font-size: 30px;
+    color: rgb(10, 5, 75);
+    text-align: center;
+}
+
+.textbox {
+    width: 400px;
+    height: 30px;
+border-radius: 8px;  
+padding: 5px;  
+}
+
+#form{
+    background-color: rgb(47, 255, 238);
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    box-shadow: 0px 0px 15px 5px;
+}
+textarea{
+    width: 500px;
+    border-radius: 10px;
+}
+
+#submit {
+    
+    background-color: rgb(10, 3, 114);
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+}
